@@ -1,0 +1,16 @@
+[project]
+name = "retellclient"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "mw-vault>=1.1.10",
+    "pandas>=2.3.3",
+    "pyyaml>=6.0.3",
+    "retell-sdk>=4.65.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["utils*"]
